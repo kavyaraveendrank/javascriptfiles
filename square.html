@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Area of a Square</h1>
+    Length<input id="lengthbox" type="text">
+    <button onclick="btnclick()" >Area</button>
+    Area of the square<input id="ansbox" type="text">
+
+<script>
+function btnclick(){
+    let area;
+    length=document.getElementById("lengthbox").value;
+    area=length*length;
+    document.getElementById("ansbox").value=area
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Amstrong</h1>
+Enter a number<input id="num" type="text">
+<button onclick="amsbtn()" >Check</button>
+<input id="armstrongresult" type="text"> 
+
+<script>
+    function amsbtn(){
+ 
+    let sum =0;
+number=Number(document.getElementById("num").value)
+let temp=number;
+while(temp>0){
+    let reminder=temp%10;
+    sum+=reminder*reminder*reminder;
+    temp=parseInt(temp/10);
+}
+
+
+if(sum==number){
+        document.getElementById("armstrongresult").value=number+" is an Armstrong number"
+    
+}
+    else{
+        document.getElementById("armstrongresult").value= number+" is Not Armstrong number"
+    }
+
+    }
+
+</script>
+
+</body>
+</html>

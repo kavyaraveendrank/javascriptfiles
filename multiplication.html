@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter the Number<input  id="number" type="text">
+    <button onclick="multitable()">Click me</button>
+    <p id="demo"></p>
+
+
+
+    <script>
+        function multitable(){
+            var num = Number(document.getElementById("number").value)
+            var multitable=""
+            for(let i=1;i<=15;i++)
+            {
+multitable+=i+"*"+num+"="+i*num+"<br>"
+        }
+  document.getElementById("demo").innerHTML=multitable
+    }
+    </script>
+</body>
+</html>

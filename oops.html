@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // class Student{
+        //     constructor(name,stclass){
+        //         this.name = name;
+        //         this.stclass = stclass;
+        //     }
+        //     getDetails(){
+        //         return(`The name of the student is ${this.name} and  standared is ${this.stclass}`)
+        //     }
+        // }
+
+        // let st1 = new Student('Anu','1');
+        // console.log(st1.getDetails());
+        // console.log(st1.stclass);
+
+        class Rectangle{
+            constructor(height,width){
+                this.height = height;
+                this.width = width;
+            }
+            get area(){
+                return this.calcArea();
+            }
+            calcArea(){
+                return "area "+this.height*this.width;
+            }
+        }
+        const square = new Rectangle(9,15);
+        console.log(square.area)
+    </script>
+
+</body>
+</html>

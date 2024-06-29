@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- A<input type="text" id="text1">
+    B<input type="text" id="text2">
+    <button onclick="swap()">Swap</button>
+    A<input type="text" id="text3">
+    B<input type="text" id="text4"> -->
+    A<input type="text" id="text1">
+    B<input type="text" id="text2">
+    <button onclick="swap()">Click Me</button>
+    A<input type="text" id="text3">
+    B<input type="text" id="text4">
+<script>
+
+function swap()
+{
+    // var a,b,temp
+    // a=Number(document.getElementById("text1").value)
+    // b=Number(document.getElementById("text2").value)
+    // temp=a
+    // a=b
+    // b=temp
+    // document.getElementById("text3").value=a
+    // document.getElementById("text4").value=b
+ var a,b,temp
+ a=Number(document.getElementById("text1").value)
+ b=Number(document.getElementById("text2").value)
+ a=a+b
+ b=a-b
+ a=a-b
+ document.getElementById("text3").value=a
+ document.getElementById("text4").value=b
+}
+
+
+</script>
+
+</body>
+</html>

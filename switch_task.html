@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="fruitbox" type="text">
+    <button onclick="demo()">Try it</button>
+    <p id="outpara"></p>
+
+    <script>
+        function demo(){
+           var fruit=document.getElementById("fruitbox").value
+           switch(fruit){
+            case "Apple":
+                document.getElementById("outpara").innerHTML="Apple is good"
+            break;
+            case "Orange":
+                document.getElementById("outpara").innerHTML="Orange is good"
+            break;
+            case "Pomegranate":
+                document.getElementById("outpara").innerHTML="Pomegranate is good"
+            break;
+            default: 
+                document.getElementById("outpara").innerHTML="Not bad"
+            break;
+                   }
+        }
+    </script>
+
+</body>
+</html>

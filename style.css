@@ -1,0 +1,492 @@
+
+.header_section{
+    background: #562b80;
+   
+    text-align: center;
+     padding: 20px ; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    order: 1;  
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+.join{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    margin-top: 30px;
+}
+/* p{
+    line-height: 24px;
+   
+} */
+ .join:hover{
+    color: gold;
+    text-decoration: underline;
+ }
+ body{
+    font-family: 'SoraRegular';
+    font-weight: 400;
+ }
+ .close_btn{
+    max-width: 100%;
+    padding-right: 10px;
+    /* display: flex; */
+    position: absolute;
+    bottom: 20px;
+    right: 18px;
+    top:25px;
+ } 
+ #star1{
+    position: absolute;
+    bottom:20px ;
+    left:400px ;
+    top: 30px;
+ }
+ #star2{
+    position: absolute;
+    bottom:20px ;
+    right:400px ;
+    top: 30px;
+ }
+  .container-fluid{
+    flex-grow: 1;
+    max-width: 100%;
+    background: #411B66 ;
+     order: 2;
+     position: absolute;
+     top: 60px;
+     left: 0;
+  }
+  .contact-us-btn{
+   background-color: #FF9F1C;
+   color: #fff;
+   padding: 18px 44px;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+   border-radius: 16px;
+   text-decoration: none;
+   display: inline-block;
+   position: relative;
+   right: 180px;
+   line-height: 28px;
+  }
+  .contact-us-btn:hover{
+   color:  #FF9F1C;
+   background-color: #411B66;
+   border: 1px solid #FF9F1C;
+   font-family: sans-serif;
+   font-size: 17px;
+   font-weight: bold;
+  }
+.placed{
+   position: absolute;
+   top: 30%;
+   right: 100px; 
+
+
+}
+.left_div{
+   width: 50%;
+    display: inline-block;
+    padding-top: 260px;
+    padding-left: 100px;
+
+}
+.left_head{
+   font-size: 75px;
+   line-height: 80px;
+   padding-bottom: 25px;
+   color: #feab01;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.placed_img{
+   /* transition-delay: 0s; */
+
+   animation: zoomIn 5s infinite;
+   animation-duration: 5s;
+}
+.left_para{
+   color: #E0E0E0;
+   font-size: 15px;
+   line-height: 22px;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+.btn{
+   font-size: 16px;
+        line-height: 28px;
+        padding: 10px 40px 10px 20px;
+        background-size: 20px;
+        background-position: right 15px center;
+}
+
+.enquire_btn{
+   background-color: #411B66;
+   color: #fff;
+   padding: 10px 26px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 16px;
+   text-decoration: none;
+   display: inline-block;
+   position: relative;
+   line-height: 28px;
+   border: 1px solid #fff;
+  }
+  .call_btn{
+
+   background-color: #411B66;
+   color: #fff;
+   padding: 10px 26px;
+   font-size: 20px;
+   font-weight: bold;
+   border-radius: 16px;
+   text-decoration: none;
+   display: inline-block;
+   position: relative;
+   margin-left: 12px;
+   line-height: 28px;
+   border: 1px solid #fff;
+  }
+  .enquire_btn:hover{
+   background-color: #fff;
+   color: #411B66;
+  }
+  .call_btn:hover{ 
+   background-color: #fff;
+   color: #411B66;
+  }
+  .right_div{
+   width: 44%;
+   height: 330px;
+   position: absolute;
+   top: 260px;
+   right: 45px;
+  }
+  .right_image{
+   width: 575px;
+   height: 360px;
+  }
+  .rotation_div{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   left: 52%;
+   top: 571px;
+  }
+  .rotate_image{
+   width: 100px;
+   height: 100px;
+   animation: myRotation 4s infinite linear;
+   transform: translate(-50%,-50%);
+  }
+  .whatsap_div{
+   width: 60px;
+   height: 100px;
+   position: absolute;
+   left: 94%;
+   top: 506px;
+   position: fixed;
+  }
+  .whatsap_image{
+   width: 60px;
+   height: 60px;
+  }
+  .second_div{
+   height: 700px;
+   width: 100%;
+   background-color: #fff;
+}
+  .heading_portion{
+   width: 80%;
+   height: 280px;
+   margin: 0 auto;
+  }
+  .courselbl{
+   font-size: 22px;
+   line-height: 36px;
+   color: #0b0b0b;
+   position: relative;
+   left: 40%;
+   top: 92px;
+   font-weight: bold;
+   font-family: sans-serif;
+  }
+  .traininghead{
+   font-size: 27px;
+   line-height: 36px;
+   color: #562b80;
+   font-family: sans-serif;
+   position: relative;
+   left: 36%;
+   top: 93px;
+   font-weight: bold;
+  }
+  .secndpara{
+   position: relative;
+   left: 1%;
+   top: 96px;
+   font-size: 15px;
+   line-height: 25px;
+   color: #5e5e5e;
+   font-family: sans-serif;
+  }
+  .row{
+      width: 90%;
+      height: 500px;
+      position: relative;
+      bottom: 400px;
+      left: 6%;
+  }
+  .python{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+  }
+  .pythonimg{
+   width: 100%;
+   height: 105px;
+  
+  }
+  .image1{
+   width: 140px;
+   height: 60px;
+   position: absolute;
+   left: 44px;
+   top: 18px;
+  }
+  .pythontext{
+   font-family: 'SoraSemiBold';
+    color: #562b80;
+    font-size: 18px;
+    position: absolute;
+    left: 34px;
+    top: 95px;
+  }
+  .laravel{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 355px;
+   bottom: 900px;
+  }
+  .laravelimg{
+   width: 143px;
+   height: 54px;
+   position: absolute;
+   left: 36px;
+   top: 6px;
+   }
+  .laraveltext{
+   font-family: 'SoraSemiBold';
+   color: #562b80;
+   font-size: 18px;
+   position: absolute;
+   left: 73px;
+   top: 95px;
+  }
+  .mern{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 671px;
+   bottom: 1036px;
+  }
+  .mernimg{
+   width: 130px;
+   height: 60px;
+   position: absolute;
+   left: 47px;
+   top: 5px;
+  }
+  .merntext{
+   font-family: 'SoraSemiBold';
+   color: #562b80;
+   font-size: 18px;
+   position: absolute;
+   left: 83px;
+   top: 95px;
+
+  }
+  .frontend{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 987px;
+   bottom: 1172px;
+  }
+   
+  .frontimg{
+   width: 87px;
+   height: 43px;
+   position: absolute;
+   left: 112px;
+   top: 18px;
+  }
+  .frontendtext{
+   font-family: 'SoraSemiBold';
+   color: #562b80;
+   font-size: 19px;
+   position: absolute;
+   left: 73px;
+   top: 95px;
+
+  }
+  .uiux{
+   width: 20%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 69px;
+   bottom: 1146px;
+
+  }
+  .uximg{
+   width: 140px;
+   height: 60px;
+   position: absolute;
+   left: 57px;
+   top: 18px;
+  }
+  .uiuxtext{
+      font-family: 'SoraSemiBold';
+      color: #562b80;
+      font-size: 17px;
+      position: absolute;
+      left: 103px;
+      top: 95px;
+  }
+  .flutter{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 357px;
+   bottom: 1283px;
+  }
+  .flutterimg{
+   width: 110px;
+   height: 50px;
+   position: absolute;
+   left: 38px;
+   top: 8px;
+  }
+  .fluttertext{
+      font-family: 'SoraSemiBold';
+      color: #562b80;
+      font-size: 17px;
+      position: absolute;
+      left: 73px;
+      top: 95px;
+  }
+  .digital{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left: 672px;
+   bottom: 1420px;
+  }
+  .digitalimg{
+   width: 75px;
+   height: 50px;
+   position: absolute;
+   left: 55px;
+   top: 7px;
+  }
+  .digitaltext{
+   font-family: 'SoraSemiBold';
+      color: #562b80;
+      font-size: 17px;
+      position: absolute;
+      left: 83px;
+      top: 95px;
+  }
+  .react{
+   width: 22%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: relative;
+   left:987px;
+   bottom: 1556px;
+  }
+  .reactimg{
+   width: 74px;
+   height: 52px;
+   position: absolute;
+   left: 60px;
+   top: 8px;
+  }
+  .reacttext{
+   font-family: 'SoraSemiBold';
+   color: #562b80;
+   font-size: 17px;
+   position: absolute;
+   left: 123px;
+   top: 95px;
+  }
+  .datasnce{
+   width: 20%;
+   height: 136px;
+   border: 1px solid #5e5e5e ;
+   border-radius: 32px;
+   position: absolute;
+   right:1011px;
+   top: 1337px;
+  }
+  .datasncimg{
+   width: 73px;
+   height: 52px;
+   position: absolute;
+   left: 95px;
+   top: 18px;
+  }
+  .datatext{
+   font-family: 'SoraSemiBold';
+   color: #562b80;
+   font-size: 17px;
+   position: absolute;
+   left: 83px;
+   top: 95px;
+  }
+ 
+.course_btn{
+   color: #411B66;
+   background-color: #fff;
+   padding: 10px 26px;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: sans-serif;
+   border-radius: 16px;
+   text-decoration: none;
+   display: inline-block;
+   position: relative;
+   bottom: 1383px;
+   left: 569px;
+   line-height: 28px;
+   border: 1px solid #fff;
+   border: 1px solid #411B66 ;
+  }
+  

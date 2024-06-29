@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <h1><li>Prime Number</li></h1>
+    <h3>Enter a number</h3><input id="num" type="text">
+    <button onclick="pclick()" >Check</button>
+    <input id="result" type="text">
+    <br>
+
+    <h1><li>Odd or Even</li></h1>
+    <h3>Enter a number</h3><input id="odeven_num" type="text">
+    <button onclick="oddeven_btn()">Check</button>
+<input id="ans" type="text">
+<br>
+
+<h1><li>Fibonacci Series</li></h1>
+<h3>Enter the limit</h3><input id="fibonaccinum" type="text">
+<button onclick="fibonaccibutton()">Click</button>
+<br>
+
+<h1><li> Prime number upto a limit </li></h1>
+<h3>Enter the limit</h3><input id="limit" type="text">
+<button onclick="primebtn()" >Prime</button>
+ 
+
+
+</ol>
+    <script>
+function pclick(){
+let flag=0;
+let n=Number(document.getElementById("num").value)
+
+for(let i=2;i<=n/2;i++){
+    if(n%i==0){
+        flag=1;
+        break;
+    }
+}
+if(flag==0&&n!=1){
+    document.getElementById("result").value= n +" is a prime number"
+
+}
+else{
+    document.getElementById("result").value= n +" is a not a prime number"
+}
+}
+
+function oddeven_btn(){
+    a=Number(document.getElementById("odeven_num").value)
+    if(a%2==0){
+        document.getElementById("ans").value=a+" is an even number";
+    }
+    else{
+        document.getElementById("ans").value=a+" is an odd number";
+    }
+} 
+
+function fibonaccibutton(){
+    var n1=0,n2=1,next,i;
+    var num;
+    num=Number(document.getElementById("fibonaccinum").value)
+    for(i=1;i<=num;i++){
+     document.write(n1+"<br>");
+        next=n1+n2;
+        n1=n2;
+        n2=next;
+        
+    }
+}
+
+function primebtn(){
+    
+    let n=Number(document.getElementById("limit").value)
+    let prime=0;
+    
+    for(let i=2;i<=n;i++){
+        prime=0;
+        for(let j=2;j<=i/2;j++)
+     {
+        if(i%j==0){
+      
+            prime++
+        }
+     }  
+     if(prime==0){
+        document.write(i+"<br>")
+     } 
+    }
+        }
+
+    </script>
+</body>
+</html>

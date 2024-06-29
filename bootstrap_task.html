@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome\fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome\fontawesome/css/brands.css">
+    <link rel="stylesheet" href="fontawesome\fontawesome/css/solid.css">
+    <style>
+        
+        @keyframes zoomIn{
+
+          0%{
+            transform: scale(1.1);
+          }
+          50%{
+            transform: scale(1.2);
+          }
+          100%{
+             transform: scale(1);
+           
+          }
+        }
+
+        @keyframes myRotation{
+          0%{
+            transform:  translate(-50%,-50%) rotate(0deg);
+          }
+          50%{
+            transform:  translate(-50%,-50%) rotate(180deg);
+          }
+          100%{
+            transform:  translate(-50%,-50%) rotate(360deg);
+          }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header_section" style="display: block;">
+        <p><a class="join" href="https://thefuturalabs.com/contact/">Join now for Internship</a></p>
+        <img src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/close.svg" alt="Close"class="close_btn">
+        <i class="fa-solid fa-star" style="color: #FFD43B;" id="star1"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;" id="star2"></i>
+ </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid"  style="height: 100px;">
+          <a class="navbar-brand" href="#"><img src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/futuralabs.svg" alt="" width="65%" style="position: relative; left: 130px;"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="color: #fff; font-size: 18px; font-family: sans-serif; font-weight: bold; margin: 0 14px;"  class="nav-link active" aria-current="page" href="#" >About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a style=" margin: 0 14px; color: #fff; font-size: 18px; font-family: sans-serif; font-weight: bold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">MERN</a></li>
+                  <li><a class="dropdown-item" href="#">React</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a style=" margin: 0 10px; color: #fff; font-size: 18px; font-family: sans-serif; font-weight: bold;" class="nav-link active" aria-current="page" href="#">Placements</a>
+              </li>
+              <li class="nav-item">
+                <a style="  margin: 0 10px; color: #fff; font-size: 18px; font-family: sans-serif; font-weight: bold;" class="nav-link active" aria-current="page" href="#">Careers</a>
+              </li>
+            </ul>
+               <a href="#contact" class="contact-us-btn">Contact Us</a>
+            
+          </div>
+        </div>
+      </nav>
+      <div style="width: 100%; height: 700px; background-color: #411B66;">
+
+        <div class="left_div">
+          <div class="left_head">Enable.<br> Transform.<br> Accelerate.</div>
+          <p class="left_para">Best learning platform to transform you into a skilled and trained IT professional.</p>
+          <a href="#contact" class="enquire_btn">enquire now</a>
+          <a href="#contact" class="call_btn">Call Now</a>
+        </div>
+
+        <div class="placed">
+          <img src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/placed-students.svg" alt="Placed Students" title="Placed Students" data-lazy-src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/placed-students.svg" data-ll-status="loaded" class="placed_img">
+
+        </div>
+
+        <div class="right_div">
+          <img class="right_image" src="https://thefuturalabs.com/wp-content/uploads/2024/03/banner01-1.png" alt="">
+
+        </div>
+
+        <div class="rotation_div">
+          <img class="rotate_image" src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/assured-placements.svg" alt="">
+        </div>
+        
+        <div class="whatsap_div">
+          <img class="whatsap_image" src="https://thefuturalabs.com/wp-content/themes/Netstager_Creative_Suite-3.0/images/whatsapp.svg" alt="">
+        </div>
+
+    </div>
+
+    <div class="second_div">
+
+        <div class="heading_portion">
+
+          <label class="courselbl">Our Courses</label>
+          <h1 class="traininghead">Trainings We Offer</h1>
+          <p class="secndpara">Explore our carefully curated courses that blend academic excellence with practical skills, preparing you for success in your chosen field. We <br>train you to upgrade your skills and practical knowledge, with the broadly designed syllabus and state-of-the-art facility. Choose among<br> various software training programs we are offering and get the mentorship of industry experts to stand sturdy in the industry.</p>  
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="python">
+        <div class="pythonimg">
+            <img class="image1" src="https://thefuturalabs.com/wp-content/uploads/2024/03/django.png" alt="">
+        </div>
+        <div class="pythontext">Python-Django Fullstack</div>
+
+      </div>
+    </div>
+    <div class="laravel">
+       <div class="laravelimg">
+           <img class="laravelimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/laravel.png" alt="">   
+       </div>
+       <div class="laraveltext">Php Laravel Fullstack</div>
+    </div>
+    <div class="mern">
+        <div class="mernimg">
+          <img class="mernimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/mern.png" alt="">
+
+        </div>
+        <div class="merntext">MERN Fullstack </div>
+    </div>
+
+    <div class="frontend">
+         <div class="frontendimg">
+                <img class="frontimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/front-end-development.png" alt="">
+         </div>
+         <div class="frontendtext">Front End Development</div>
+    </div>
+    <div class="uiux">
+      <div class="uiuximg">
+           <img class="uximg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/uiux.png" alt="">
+      </div>
+      <div class="uiuxtext">UI/UX </div>
+
+    </div>
+    <div class="flutter">
+      <div class="flutterimg">
+           <img class="flutterimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/flutter.png" alt="">
+      </div>
+      <div class="fluttertext">Flutter Mobile App</div>
+
+    </div>
+    <div class="digital">
+      <div class="digitalimg">
+          <img class="digitalimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/digitalmarketing.png" alt="">
+      </div>
+      <div class="digitaltext">Digital Marketing</div>
+
+    </div>
+    <div class="react">
+      <div class="reactimg">
+           <img class="reactimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/reactjs.png" alt="">
+      </div>
+      <div class="reacttext">React JS</div>      
+    </div>
+    <div class="datasnce">
+      <div class="dataimg">
+            <img class="datasncimg" src="https://thefuturalabs.com/wp-content/uploads/2024/03/data-science.png" alt="">
+      </div>
+      <div class="datatext">Data Science</div>
+
+    </div>
+    <div class="dotnet">
+      <div class="dotnetimg">
+           <img class="" src="" alt="">
+      </div>
+      <div class="dotnettext">
+
+      </div>
+
+    </div>
+    <div class="testing">
+
+      <div class="testingimg">
+
+      </div>
+      <div class="testingtext">
+
+      </div>
+    </div>
+    <a href="#contact" class="course_btn">View All Courses</a>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

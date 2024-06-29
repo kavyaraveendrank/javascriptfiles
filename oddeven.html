@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="num" type="text">
+    <button onclick="odevencheck()">Click</button>
+    <input id="outnum" type="text">
+
+
+<script>
+    function odevencheck(){
+        
+    a=document.getElementById("num").value
+    if(a%2==0){
+        document.getElementById("outnum").value=a+"is even" 
+    }
+    else{
+
+         document.getElementById("outnum").value=a+"is odd"
+    }
+    
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter a number<input id="num" type="text">
+    <button onclick="displayfactorial()">Click</button>
+    <input id="result" type="text">
+    <script>
+        function displayfactorial(){
+            var fact=1;
+            b=Number(document.getElementById("num").value);
+            for(i=1;i<=b;i++){
+                fact=fact*i
+            }
+            document.getElementById("result").value=fact
+        }
+    </script>
+</body>
+</html>
